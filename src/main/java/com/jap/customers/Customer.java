@@ -67,6 +67,13 @@ private int loyaltyPoints;
     // Override the toString method
     @Override
     public String toString() {
-        return "";
+        return "Customer{" +
+                "customerId=" + customerId +
+                ", customerName='" + customerName + '\'' +
+                ", customerGender='" + customerGender + '\'' +
+                ", isSeniorCitizen=" + isSeniorCitizen +
+                ", city='" + city + '\'' +
+                ", loyaltyPoints=" + loyaltyPoints +
+                '}';
     }
 }
